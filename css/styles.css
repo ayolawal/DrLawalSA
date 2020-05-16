@@ -1,0 +1,153 @@
+
+.title-section {
+  text-align: left;
+}
+.PSEtitle-section {
+  text-align: center;
+  background-color: #00909e;
+    margin: 0 1%;
+}
+.PSE-img {
+  width: 75%;
+}
+.PSE-profile {
+  padding: 4%;
+  text-align: center;
+}
+.home-nav {
+  color: #fff;
+  font-size: 2em;
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+body {
+font-family: Montserrat-Light;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #00909e;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.dropdown-menu {
+  background-color: #00909e;
+  margin-left: 76%;
+  }
+
+.dropdown-item {
+  font-family: Montserrat-Light;
+  color: #fff;
+}
+
+.unilag-img {
+  float: left;
+  width: 13%;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.profile-div {
+  width: 30%;
+  position: absolute;
+  margin-top: 90px;
+  display: inline-block;
+}
+
+.profile-img {
+  width: 20%;
+  margin: 2% 1% 2% 20%;
+}
+
+.navbar {
+  background-color: #00909e;
+  padding-right: 5%;
+}
+
+.nav-item {
+  padding: 0 12px;
+  font-family: Montserrat-Light;
+  font-size: 1.2rem;
+}
+
+.competency-section {
+  background-color: #00909e;
+  text-align: center;
+  padding: 5% 0 2%;
+  margin: 0 1%;
+}
+
+.carousel-text {
+  color: #fff;
+  padding-bottom: 40px;
+  padding-top: 30px;
+}
+.competencies-img {
+  width: 70%;
+  height: 15%;
+  text-align: center;
+}
+
+.research-section {
+  text-align: justify;
+  padding: 2% 0 2%;
+  margin: 0 1%;
+}
+
+.research-buttons {
+  padding: 0 10% 2% 15%;
+}
+
+.research-button {
+  padding: 0 10% 5% 15%;
+}
+
+.btn {
+  background-color: #00909e;
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #00909e;
+}
+
+.pubList {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.honours-text {
+  font-size: 1.3rem;
+}
+
+.contact-section {
+  background-color: #00909e;
+  text-align: center;
+  margin: 0 1%;
+  padding: 2% 0 1%;
+}
+
+.contact-links {
+  color: #fff;
+  padding-right: 20px;
+  font-size: 1.3rem;
+}
+
+.copyright {
+  padding-top: 2%;
+  color: #fff;
+}
+
+.middle-container {
+    margin: 0 1%;
+    padding: 2% 10% 5%;
+    text-align: justify;
+}
+
+/* hr {
+  weight: 10rem;
+  padding-top: 2%;
+} */

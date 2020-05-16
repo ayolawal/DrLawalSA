@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dr Lawal S. A.</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,400;0,500;1,400;1,500&family=Sacramento&display=swap" rel="stylesheet">
+
+  <!-- bootstrap link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Google fonts link -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Javascript and Jquery links -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <section class="title-section" id="title">
+
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="home-nav" href="index.html">Dr Lawal S. A.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler01" aria-controls="navbarToggler01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler01">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#teaching" onclick="openResearchBtn('teaching')">Teaching</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#research" onclick="openResearchBtn('research')">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#publications" onclick="openResearchBtn('publications')">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Expertise</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="PSE.html">Process Systems Engineering</a>
+                <a class="dropdown-item" href="softwareTest.html">Software Testing</a>
+                <a class="dropdown-item" href="webDev.html">Front-end Web Development</a>
+                <a class="dropdown-item" href="dataSci.html">Data Science</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="profile-section">
+      <img class="unilag-img" src="images/Unilag_2.jpg" alt="Unilag-img">
+      <img class="profile-img" src="images/Sulaiman_2.png" alt="Dr. Sulaiman A. Lawal">
+      <div class="profile-div">
+        <h2 class="profile-text"> Sulaiman A Lawal </h2>
+        <h4> PhD, MBA, FHEA, AMIChemE </h4>
+        <h5>Chemical Engineering Dept.</h5>
+        <h5>University of Lagos, Akoka Road,</h5>
+        <h5>Yaba, Lagos, Nigeria </h5>
+      </div>
+    </div>
+  </section>
+
+  <section class="competency-section" id="competencies">
+    <div id="carousel-Competencies" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-Competencies" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-Competencies" data-slide-to="1"></li>
+        <li data-target="#carousel-Competencies" data-slide-to="2"></li>
+        <li data-target="#carousel-Competencies" data-slide-to="3"></li>
+        <li data-target="#carousel-Competencies" data-slide-to="4"></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="">
+            <img src="images/TR.jpg" class="competencies-img" alt="Teaching and Research-img">
+          </div>
+          <div class="">
+            <h3 class="carousel-text">An experienced teacher and a fellow of the higher education academy</h3>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="">
+            <img src="images/PSE.jpg" class="competencies-img" alt="Process System Engr-img">
+          </div>
+          <div class="">
+            <h3 class="carousel-text"> Experienced Process Systems Engineer </h3>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="">
+            <img src="images/testAuto.jpg" class="competencies-img" alt="Test Automation-img">
+          </div>
+          <div class="">
+            <h3 class="carousel-text"> Experienced Automation Test Analyst</h3>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="">
+            <img src="images/dataSci.jpg" class="competencies-img" alt="Data Science-img">
+          </div>
+          <div class="">
+            <h3 class="carousel-text"> Experienced Data Scientist </h3>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="">
+            <img src="images/webDev.jpg" class="competencies-img" alt="Web Developer-img">
+          </div>
+          <div class="">
+            <h3 class="carousel-text"> Experienced Web Developer </h3>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carousel-Competencies" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel-Competencies" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="research-section" id="research-sec">
+    <div class="research-buttons">
+      <button id="btn_0" style="backgroundColor: #00909e" type="button" onclick="openResearchBtn('background')" class="btn btn-lg btn-primary active"> Background </button>
+      <button id="btn_1" style="backgroundColor: #00909e" type="button" onclick="openResearchBtn('research')" class="btn btn-lg btn-primary"> Research </button>
+      <button id="btn_2" style="backgroundColor: #00909e" type="button" onclick="openResearchBtn('teaching')" class="btn btn-lg btn-primary"> Teaching </button>
+      <button id="btn_3" style="backgroundColor: #00909e" type="button" onclick="openResearchBtn('publications')" class="btn btn-lg btn-primary"> Publications </button>
+      <button id="btn_4" style="backgroundColor: #00909e" type="button" onclick="openResearchBtn('expertise')" class="btn btn-lg btn-primary"> Other Expertise </button>
+    </div>
+
+    <div class="research-button">
+      <div class="researchDivs" id="background">
+        <h2>Professional Profile</h2>
+        <p> <strong>1. </strong> Fellow of the Higher Education Academy (FHEA), an early career researcher and a promising academic.
+          Experienced university teacher and examiner in Chemical Engineering Process Dynamics and Control;
+          Process Modelling, Simulation, Monitoring and Optimisation; Advanced Process Control; and Fault Tolerant Control Systems (FTCS).</p>
+        <p> <strong>2. </strong> Member of faculty board of examiners</p>
+        <p> <strong>3. </strong> Postgraduate and undergraduate project supervisor</p>
+        <p> <strong>4. </strong> Academic adviser</p>
+
+        <h3> Qualifications </h3>
+        <p> B. Tech, Ladoke Akintola University of Technology, Ogbomoso, Nigeria, 2003. </p>
+        <p> MSc, Newcastle University, UK, 2006. </p>
+        <p> MBA, University of Sunderland, UK, 2009. </p>
+        <p> PhD, Newcastle University, UK, 2018. </p>
+
+        <h3>Honours and Awards</h3>
+        <ul class="honours-text">
+          <li> Awarded funds by the Chemical Engineering, School of Engineering, Newcastle
+            University to make a presentation at the CPACT Research Day in Glasgow. (September 2016)</li>
+          <li> Won third best presentation at the 2016 Newcastle University Chemical
+            Engineering Annual Postgraduate Research Conference. (July 2016)</li>
+          <li> Awarded Partial PhD Scholarship (£26k) by the Petroleum Technology
+            Development Fund (PTDF) for my PhD at Newcastle University, UK. (July 2016)</li>
+          <li> Awarded funds by the Chemical Engineering, School of Engineering, Newcastle
+            University to attend an annual CPACT Conference, APACT 16 Conference in Chester, UK. (April 2016)</li>
+          <li> Awarded PhD Scholarship (approx. £71k) for 3 years by the University of Lagos,
+            Nigeria and TETFUND for my PhD in Chemical Engineering at Newcastle University (June 2014).</li>
+          <li> Awarded Teaching Assistant Scholarship (£6.5k per year) for 3 years during my PhD by the
+            Chemical Engineering, School of Engineering, Newcastle University (January 2014).</li>
+        </ul>
+
+        <h3>Reviewer</h3>
+        <ul class="honours-text">
+          <li> 20th IFAC World Congress - IFAC WC 2017 (Jan 2017)</li>
+          <li> IEEE Access – Actuator and Sensor Fault Tolerant Control (Since Nov 2018)</li>
+          <li> IEEE Transactions on Systems, Man and Cybernetics: Systems (Since Dec 2018)</li>
+          <li> IEEE Transactions on Industrial Informatics (Since Dec 2018)</li>
+        </ul>
+      </div>
+
+      <div class="researchDivs" id="research" style="display:none">
+        <h2>Research</h2>
+        <h5>My research interest covers the following areas:</h5>
+        <p>Chemical Engineering Process Dynamics and Control, Advanced Process Control, Process Monitoring
+          and Optimisation, Fault Detection and Diagnosis, Fault Tolerant Control Systems, Intelligent Control Systems, Machine Learning. </p>
+
+        <h5>Research Project</h5>
+        <p><strong>1. </strong> Research Fellowship in Pharmaceutical Process Characterisation and Data Analysis, University of Leeds.
+          Worked on resolving issues of sticking in the manufacture of pharmaceutical tablet through Big Data Analysis using
+          several machine learning algorithms. It was a collaboration between the University of Leeds and Pfizer Global Research
+          Sandwich, and part of Advanced Digital Design of Pharmaceutical Therapeutics (ADDoPT) project involving select UK universities,
+          SMEs and the UK pharmaceutical industry. 2019</p>
+        <p><strong>2. </strong> Doctoral Research on Fault Tolerant Control Systems Design and Newcastle University where I conducted research on
+          the state-of-the-art data-based fault monitoring techniques and fault tolerant control strategies for processes in
+          the oil and gas industry, particularly for distillation processes. Successfully designed four FTCS approaches
+          which were implemented through simulation on three distillation processes with varying complexities, including an
+          interactive dynamic crude distillation unit (CDU) using MATLAB and HYSYS. Also investigated control system availability,
+          reliability and performance in the presence of control system component faults. 2014 – 2018</p>
+        <p><strong>3. </strong> Research/consultancy work for the Research & Knowledge Exchange Services of the University of Strathclyde
+          where I worked on Multi Sensor Technology (Muse-Tech) Project, funded under the Seventh Framework Programme
+          of the European Community for Research, Technological Development and Demonstration Activities to develop
+          multi-block chemometric calibration models for multi-sensors suitable for use in the food processing industry. 2016</p>
+      </div>
+
+      <div class="researchDivs" id="teaching" style="display:none">
+        <h2>Teaching</h2>
+        <h4>Undergraduate</h4>
+        <p>Chemical Engineering Analysis (CHG407) </p>
+        <p>Chemical Engineering Process Dynamics and Control (CHG501)</p>
+        <p>Process Optimisation (CHG502)</p>
+        <p>Chemical Engineering Research Projects I & II (CHG 507 & 508)</p>
+        <p>Chemical Engineering Entrepreneurship (CHG509)</p>
+
+        <h4>Postgraduate</h4>
+        <p>Advanced Process Control (CHG802)</p>
+      </div>
+
+      <div class="researchDivs" id="publications" style="display:none">
+        <h2>Publications</h2>
+
+        <ul class="pubList">
+          <li>
+            <strong>Lawal, S. A.</strong> and Jie Zhang (2020). 'Actuator Fault Tolerant Control System for Distillation Processes' in Hutton J. M. (ed)
+            <a class="pubLink" href="https://novapublishers.com/shop/a-closer-look-at-fault-tolerant-control/" title="View full details of this publication"> <em>A Closer Look at Fault-Tolerant Control.</em></a> New York: Nova Science Publisher.
+          </li>
+          <li>
+            <strong>Lawal, S. A.</strong> (2018)
+            <a class="pubLink" href="https://theses.ncl.ac.uk/jspui/handle/10443/4219" title="View full details of this publication"> <em>“Fault Tolerant Control System Design for Distillation Processes”</em></a>, in <em>Chemical Engineering</em>,
+            Newcastle University: Newcastle upon Tyne.
+          </li>
+          <li>
+            <strong>Lawal, S. A.</strong> and Zhang J. (2017)
+            <a class="pubLink" href="https://eprint.ncl.ac.uk/225495" title="View full details of this publication"> ‘Actuator fault monitoring and fault tolerant control in distillation columns’</a>, <em>International Journal of Automation and
+              Computing.</em> 14(1), 80–92.
+          </li>
+          <li>
+            <strong>Lawal, S. A.</strong> and Zhang J. (2017) <a class="pubLink" href="https://eprint.ncl.ac.uk/246191" title="View full details of this publication"> ‘Actuator and sensor fault tolerant control of a crude distillation unit’</a>
+            , in Espuna, A., Graells, M. and Puigianer, L. (eds.) <em>Computer Aided Process Engineering.</em> Elsevier, pp. 1705–1710.
+          </li>
+          <li>
+            <strong>Lawal, S. A.</strong> and Zhang J. (2016)
+            <a class="pubLink" href="https://eprint.ncl.ac.uk/232555" title="View full details of this publication"> ‘Fault monitoring and fault tolerant control in distillation columns’</a>,
+            <em>Proceedings of the 21st International Conference on Methods and Models in Automation and Robotics (MMAR)</em>, pp. 865–870.
+          </li>
+          <li>
+            <strong>Lawal, S. A.</strong> and Zhang J. (2016) <a class="pubLink" href="https://eprint.ncl.ac.uk/236419" title="View full details of this publication"> ‘Sensor Fault Detection and Fault Tolerant Control of a Crude Distillation
+              Unit’</a>
+            , in Kravanja, Z. and Bogataj, M. (eds.) <em>26th European Symposium on Computer Aided Process Engineering.</em> Amsterdam: Elsevier Science Bv, pp. 2091–2096.
+          </li>
+          <li>
+            <strong>Lawal, S. A.</strong> and Zhang J. (2015)
+            <a class="pubLink" href="https://eprint.ncl.ac.uk/231033" title="View full details of this publication"> "Actuator fault monitoring and fault tolerant control in distillation columns,”</a>
+            <em>IEEE 21st International Conference on Automation and Computing (ICAC)</em>, pp. 329–334.
+          </li>
+          <li>
+            Okwananke, A., Adeboye, Y. B., and <strong>Lawal, S. A.</strong> (2011). ‘Evaluation and Performance of Natural Gas Storage in Depleted Gas Reservoir’, Petroleum and Coal, Vol. 53, No. 4, pp 301 – 308.
+          </li>
+        </ul>
+      </div>
+
+      <div class="researchDivs" id="expertise" style="display:none">
+        <h2>Other Expertise</h2>
+        <h3><a href="#">Process Systems Engineering</a></h3>
+        <p>Experienced Process Systems Engineer, an associate member of IChemE and a member of the Process Management and
+          Control Special Interest Group at IChemE. An associate member of the Chartered Institute for IT, a registered Chemical
+          Engineer by the Council for the Regulation of Engineering in Nigeria (COREN) and a professional member of IEEE with
+          memberships of Control System, Instrumentation and Measurement, Robotics and Automation Societies. I have a wide range
+          of experience and expertise in Advanced Process Control and Automation, Process Engineering Calculations and Design, Chemical
+          Process Dynamics and Control, Optimization, System Modelling and Simulation, Plant and Control System Design, Fault Detection
+          and Diagnosis, Instrumentation and Measurements, Management of Automation Project, Data Analytics/Science and Fault Tolerant
+          Control Systems. <a href="#">See more ...</a></p>
+
+<h3><a href="#">Software Testing</a></h3>
+        <p>Experienced result oriented ISTQB Certified Test Analyst with expertise in software development life cycle, software testing
+          life cycle, quality assurance testing, products assessment, Waterfall, V-model and Agile methodologies.  A Scrum Fundamentals
+          Certified, motivated and dedicated professional with broad capability in test phases implementation, integration testing,
+          system testing and user acceptance testing on web based, client/server, windows and cloud-based software packages. Dynamically
+          cerebral certified test analyst seeking challenging role in the software development and testing industry with opportunity for
+          further professional development. <a href="#">See more ...</a></p>
+
+        <h3><a href="#">Front-end Web Development</a></h3>
+        <p> Professional Web Developer  <a href="#">See more ...</a></p>
+
+        <h3><a href="#">Data Science</a></h3>
+        <p>Experienced Data Scientist and an associate member of the Chartered Institute for IT with strong background in Machine Learning,
+          Big Data Analysis, Process System Engineering, Automation and Advanced Process Control, Fault Tolerant Control Systems,
+          Business Administration and Finance. An experienced University teacher in Chemical Engineering and a Fellow of the Higher
+          Education Academy (FHEA). <a href="#">See more ...</a></p>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div class="contact-details">
+      <a class="contact-links" href="https://www.linkedin.com/in/sulaiman-lawal-5725a639/">LinkedIn</a>
+      <a class="contact-links" href="https://scholar.google.co.uk/">Google Scholar</a>
+      <a class="contact-links" href="mailto:ayolawal05@yahoo.com">Contact Me</a>
+    </div>
+    <div id="copyright">
+      <p class="copyright">© 2020 Dr Lawal S. A.</p>
+    </div>
+  </section>
+
+<script src="myPersonalSite.js" charset="utf-8"></script>
+</body>
+
+</html>
