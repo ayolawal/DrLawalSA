@@ -1,7 +1,7 @@
 
 function openResearchBtn(researchBtn) {
   var i;
-  var x = document.getElementsByClassName("index.html.researchDivs");
+  var x = document.getElementsByClassName("researchDivs");
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
   }
