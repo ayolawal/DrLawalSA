@@ -2,16 +2,23 @@
 .title-section {
   text-align: left;
 }
+
+.copyright-link {
+  color: #fff;
+  font-size: 0.8rem;
+  margin-top: 0;
+}
+
 .PSEtitle-section {
   text-align: center;
   background-color: #00909e;
     margin: 0 1%;
 }
 .PSE-img {
-  width: 75%;
+  width: 60%;
 }
 .PSE-profile {
-  padding: 4%;
+  padding: 2% 4%;
   text-align: center;
 }
 .home-nav {
@@ -19,6 +26,9 @@
   font-size: 2em;
   font-family: Ubuntu;
   font-weight: bold;
+}
+.home-nav:hover {
+  color: #82c4c3;
 }
 body {
 font-family: Montserrat-Light;
@@ -52,14 +62,52 @@ p {
 .profile-div {
   width: 30%;
   position: absolute;
-  margin-top: 90px;
+  margin-top: 5%;
   display: inline-block;
 }
 
+@media (max-width: 1250px) {
+.profile-div {
+  margin-top: 5%}
+  .profile-img {
+    width: 25%;
+  margin: 2% 1% 2% 20%;}
+  .profile-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1001px) {
+.profile-div {
+  width: 40%;
+  margin-top: 4%}
+  .profile-img {
+    width: 27%;
+  margin: 2% 1% 2% 15%;}
+  .profile-text {
+    font-size: 1.1rem;}
+  .profile-text1 {
+    font-size: 2rem;}
+}
+
+@media (max-width: 990px) {
+  .dropdown-menu {
+    margin-left: 40%;
+  border: none;
+width: 35%;}
+}
+
+@media (max-width: 1037px) {
+  .btn { margin: 0.5%;}
+}
+
+@media (min-width: 1251px) {
 .profile-img {
   width: 20%;
   margin: 2% 1% 2% 20%;
 }
+  }
+
 
 .navbar {
   background-color: #00909e;
@@ -82,11 +130,10 @@ p {
 .carousel-text {
   color: #fff;
   padding-bottom: 40px;
-  padding-top: 30px;
+  padding-top: 0;
 }
 .competencies-img {
   width: 70%;
-  height: 15%;
   text-align: center;
 }
 
@@ -143,11 +190,41 @@ p {
 
 .middle-container {
     margin: 0 1%;
-    padding: 2% 10% 5%;
+    padding: 2% 12.5% 5%;
     text-align: justify;
 }
 
-/* hr {
-  weight: 10rem;
-  padding-top: 2%;
+hr{
+  border: dotted #11999e 8px;
+  border-bottom: none;
+  width: 80%;
+  margin: 30px auto;
+  }
+
+.sampleSites {
+  margin-left: 180px;
+  margin-top: 20px;
+}
+
+.sampleSites-text {
+  text-align: center;
+}
+/* @media screen and (min-width: 1024px) {
+#scroll-to-top {
+display: none;
+    z-index: 100;
+    position: fixed;
+    right: 5%;
+    top: 50%;
+    cursor: pointer;
+    padding: 10px 13px;
+    border-radius: 100%;
+    color: #000;
+    font-size: 11px;
+    width: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 12px;
+  }
 } */

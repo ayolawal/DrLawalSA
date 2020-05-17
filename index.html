@@ -64,15 +64,15 @@
         </div>
       </nav>
     </div>
-    <div class="profile-section">
+    <div class="profile-section container-fluid">
       <img class="unilag-img" src="images/Unilag_2.jpg" alt="Unilag-img">
       <img class="profile-img" src="images/Sulaiman_2.png" alt="Dr. Sulaiman A. Lawal">
       <div class="profile-div">
-        <h2 class="profile-text"> Sulaiman A Lawal </h2>
-        <h4> PhD, MBA, FHEA, AMIChemE </h4>
-        <h5>Chemical Engineering Dept.</h5>
-        <h5>University of Lagos, Akoka Road,</h5>
-        <h5>Yaba, Lagos, Nigeria </h5>
+        <h1 class="profile-text1"> Sulaiman A Lawal </h1>
+        <h4 class="profile-text"> PhD, MBA, FHEA, AMIChemE </h4>
+        <h5 class="profile-text">Chemical Engineering Dept.</h5>
+        <h5 class="profile-text">University of Lagos, Akoka Road,</h5>
+        <h5 class="profile-text">Yaba, Lagos, Nigeria </h5>
       </div>
     </div>
   </section>
@@ -90,16 +90,19 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="">
-            <img src="images/TR.jpg" class="competencies-img" alt="Teaching and Research-img">
+            <a href="#research-sec"> <img src="images/TR.jpg" class="competencies-img" alt="Teaching and Research-img"> </a>
+            <p class="copyright-link">Copyright <a class="copyright-link" href="https://www.dreamstime.com/andreasimon_info">Andrea Simon</a> |
+              <a class="copyright-link" href="https://www.dreamstime.com/" title="Stock Photos">Dreamstime.com</a></p>
           </div>
           <div class="">
-            <h3 class="carousel-text">An experienced teacher and a fellow of the higher education academy</h3>
+            <h3 class="carousel-text">Experienced teacher, researcher and a fellow of the higher education academy</h3>
           </div>
         </div>
 
         <div class="carousel-item">
           <div class="">
-            <img src="images/PSE.jpg" class="competencies-img" alt="Process System Engr-img">
+            <a href="PSE.html"><img src="images/PSE.jpg" class="competencies-img" alt="Process System Engr-img"></a>
+            <p class="copyright-link">Copyright <a class="copyright-link" href="https://opuskinetic.org/sea-industrial-automation-process-control-market-report/">opuskinetic.org</a></p>
           </div>
           <div class="">
             <h3 class="carousel-text"> Experienced Process Systems Engineer </h3>
@@ -108,7 +111,9 @@
 
         <div class="carousel-item">
           <div class="">
-            <img src="images/testAuto.jpg" class="competencies-img" alt="Test Automation-img">
+            <a href="softwareTest.html"><img src="images/testAuto.jpg" class="competencies-img" alt="Test Automation-img"></a>
+            <p class="copyright-link">Copyright <a class="copyright-link" href="https://www.dreamstime.com/wrightstudio_info">Wrightstudio</a> |
+              <a class="copyright-link" href="https://www.dreamstime.com/" title="Stock Photos">Dreamstime.com</a></p>
           </div>
           <div class="">
             <h3 class="carousel-text"> Experienced Automation Test Analyst</h3>
@@ -117,7 +122,9 @@
 
         <div class="carousel-item">
           <div class="">
-            <img src="images/dataSci.jpg" class="competencies-img" alt="Data Science-img">
+            <a href="dataSci.html"><img src="images/dataSci.jpg" class="competencies-img" alt="Data Science-img"></a>
+            <p class="copyright-link">Copyright <a class="copyright-link" href="https://www.dreamstime.com/alexandersikov_info">Alexandersikov</a> |
+              <a class="copyright-link" href="https://www.dreamstime.com/" title="Stock Photos">Dreamstime.com</a></p>
           </div>
           <div class="">
             <h3 class="carousel-text"> Experienced Data Scientist </h3>
@@ -126,10 +133,12 @@
 
         <div class="carousel-item">
           <div class="">
-            <img src="images/webDev.jpg" class="competencies-img" alt="Web Developer-img">
+            <a href="webDev.html"><img src="images/webDev.jpg" class="competencies-img" alt="Web Developer-img"></a>
+            <p class="copyright-link">Copyright <a class="copyright-link" href="https://www.dreamstime.com/mustangmarshal_info">Mustsansar Syed</a> |
+              <a class="copyright-link" href="https://www.dreamstime.com/" title="Stock Photos">Dreamstime.com</a></p>
           </div>
           <div class="">
-            <h3 class="carousel-text"> Experienced Web Developer </h3>
+            <h3 class="carousel-text"> Professional Front-End Web Developer </h3>
           </div>
         </div>
       </div>
@@ -144,13 +153,20 @@
     </div>
   </section>
 
+<!-- <span id="scroll-to-top" style="display: block">
+  <i class="fa fa-angle-up" aria-hidden="true">
+    ::before
+  </i>
+  "Back To Top"
+</span> -->
+
   <section class="research-section" id="research-sec">
     <div class="research-buttons">
-      <button id="btn_0" style="backgroundColor: #00909e" type="button" onclick="openResearchBtn('background')" class="btn btn-lg btn-primary active"> Background </button>
-      <button id="btn_1" style="backgroundColor: #00909e" type="button" onclick="openResearchBtn('research')" class="btn btn-lg btn-primary"> Research </button>
-      <button id="btn_2" style="backgroundColor: #00909e" type="button" onclick="openResearchBtn('teaching')" class="btn btn-lg btn-primary"> Teaching </button>
-      <button id="btn_3" style="backgroundColor: #00909e" type="button" onclick="openResearchBtn('publications')" class="btn btn-lg btn-primary"> Publications </button>
-      <button id="btn_4" style="backgroundColor: #00909e" type="button" onclick="openResearchBtn('expertise')" class="btn btn-lg btn-primary"> Other Expertise </button>
+      <button id="btn_0"  type="button" onclick="openResearchBtn('background')" class="btn btn-lg btn-primary"> Background </button>
+      <button id="btn_1"  type="button" onclick="openResearchBtn('research')" class="btn btn-lg btn-primary"> Research </button>
+      <button id="btn_2"  type="button" onclick="openResearchBtn('teaching')" class="btn btn-lg btn-primary"> Teaching </button>
+      <button id="btn_3"  type="button" onclick="openResearchBtn('publications')" class="btn btn-lg btn-primary"> Publications </button>
+      <button id="btn_4"  type="button" onclick="openResearchBtn('expertise')" class="btn btn-lg btn-primary"> Other Expertise </button>
     </div>
 
     <div class="research-button">
@@ -276,7 +292,8 @@
 
       <div class="researchDivs" id="expertise" style="display:none">
         <h2>Other Expertise</h2>
-        <h3><a href="#">Process Systems Engineering</a></h3>
+
+        <h3>Process Systems Engineering</h3>
         <p>Experienced Process Systems Engineer, an associate member of IChemE and a member of the Process Management and
           Control Special Interest Group at IChemE. An associate member of the Chartered Institute for IT, a registered Chemical
           Engineer by the Council for the Regulation of Engineering in Nigeria (COREN) and a professional member of IEEE with
@@ -284,24 +301,24 @@
           of experience and expertise in Advanced Process Control and Automation, Process Engineering Calculations and Design, Chemical
           Process Dynamics and Control, Optimization, System Modelling and Simulation, Plant and Control System Design, Fault Detection
           and Diagnosis, Instrumentation and Measurements, Management of Automation Project, Data Analytics/Science and Fault Tolerant
-          Control Systems. <a href="#">See more ...</a></p>
+          Control Systems. <a href="PSE.html">See more ...</a></p>
 
-<h3><a href="#">Software Testing</a></h3>
+        <h3>Software Testing</h3>
         <p>Experienced result oriented ISTQB Certified Test Analyst with expertise in software development life cycle, software testing
-          life cycle, quality assurance testing, products assessment, Waterfall, V-model and Agile methodologies.  A Scrum Fundamentals
+          life cycle, quality assurance testing, products assessment, Waterfall, V-model and Agile methodologies. A Scrum Fundamentals
           Certified, motivated and dedicated professional with broad capability in test phases implementation, integration testing,
           system testing and user acceptance testing on web based, client/server, windows and cloud-based software packages. Dynamically
           cerebral certified test analyst seeking challenging role in the software development and testing industry with opportunity for
-          further professional development. <a href="#">See more ...</a></p>
+          further professional development. <a href="softwareTest.html">See more ...</a></p>
 
-        <h3><a href="#">Front-end Web Development</a></h3>
-        <p> Professional Web Developer  <a href="#">See more ...</a></p>
+        <h3>Front-end Web Development</h3>
+        <p> Professional Web Developer <a href="webDev.html">See more ...</a></p>
 
-        <h3><a href="#">Data Science</a></h3>
+        <h3>Data Science</h3>
         <p>Experienced Data Scientist and an associate member of the Chartered Institute for IT with strong background in Machine Learning,
           Big Data Analysis, Process System Engineering, Automation and Advanced Process Control, Fault Tolerant Control Systems,
           Business Administration and Finance. An experienced University teacher in Chemical Engineering and a Fellow of the Higher
-          Education Academy (FHEA). <a href="#">See more ...</a></p>
+          Education Academy (FHEA). <a href="dataSci.html">See more ...</a></p>
 
       </div>
     </div>
@@ -318,7 +335,7 @@
     </div>
   </section>
 
-<script src="myPersonalSite.js" charset="utf-8"></script>
+  <script src="myPersonalSite.js" charset="utf-8"></script>
 </body>
 
 </html>
