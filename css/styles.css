@@ -82,7 +82,7 @@ p {
   .profile-text1 {
     margin-bottom: 0.1rem;}
   .profile-text {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-bottom: 0.2rem;
   }
 }
@@ -95,10 +95,10 @@ p {
     width: 25%;
   margin: 2% 1% 2% 10%;}
   .profile-text {
-    font-size: 1.1rem;
+    font-size: 1rem;
   margin-bottom: 0.2rem;}
   .profile-text1 {
-    font-size: 2rem;}
+    font-size: 1.8rem;}
 }
 
 @media (max-width: 990px) {
@@ -114,15 +114,14 @@ width: 35%;}
 
 @media (min-width: 1251px) {
 .profile-div {
-  margin-top: 3%
-}
+  margin-top: 5%}
   .profile-img {
   width: 20%;
   margin: 2% 1% 2% 15%;}
 .profile-text1 {
   margin-bottom: 0.2rem;}
 .profile-text {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: 0.4rem;}
   }
 
